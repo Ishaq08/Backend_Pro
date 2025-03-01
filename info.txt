@@ -1,0 +1,18 @@
+Data base connection has two methods 
+1 all db connection code in index.js
+2  all bd connection in differnt folder name db , then import the db folder in index.js
+
+always use try and catch fro data base connection
+Database is always another contiant ....use async await
+
+dotenv 
+ 1 //require('dotenv').config({ path: './env' });
+
+    2 import dotenv from 'dotenv'
+    dotenv.config({
+        path: './env'
+    }) 
+    in package.json 
+    "scripts": {
+    "dev": "nodemon -r dotenv/config src/index.js"
+  }, // -r dotenv/config --experimental-josn-modules  this is fro experiment 
