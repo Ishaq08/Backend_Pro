@@ -16,3 +16,4 @@ dotenv
     "scripts": {
     "dev": "nodemon -r dotenv/config src/index.js"
   }, // -r dotenv/config --experimental-josn-modules  this is fro experiment 
+

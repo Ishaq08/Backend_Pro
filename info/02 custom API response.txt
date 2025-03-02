@@ -1,0 +1,18 @@
+  app.use(cors()) is for cookie parser config middleware
+
+we connect to DB many time , and the DB connections as same code , so why not we can create a utility of the that 
+rapper function .. that is used every where
+
+asyncHandler is higher order function
+
+Higher order function:- a function which accept a function a parameter, Or return it 
+higher order function is treate as a veriable
+
+ const asyncHandler = () => { }
+ const asyncHandler = (fun) => { } // accept functoin
+ const asyncHandler = (fun) => { () => {} } // remove {}
+ const asyncHandler = (fun) => () => {} // higher order function
+ const asyncHandler = (fun) => async () => {} // to make function async
+
+ to make the error stander 
+        There are ( nodejs api error )
